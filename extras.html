@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+       <meta charset="utf-8">
+       <link type="text/css" rel="stylesheet" href="css/index.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style> 
+    body {
+        background-image: url("images/bwbridgebackground1.jpg");
+        background-position: right top;
+    }
+    
+@keyframes example {
+    from {background-color: #f0ffff;}
+    to {background-color: #a7cece;}
+}
+
+/* The element to apply the animation to */
+h2 {
+    background-color: #f0f8ff;
+    animation-name: example;
+    animation-duration: 5s;
+}        
+
+</style>     
+
+<title>Extra</title>
+    
+</head>
+
+<body>
+ 
+<h2 class="title">
+      <q>Every day is a journey, and the journey itself is home.</q> - Matsuo Basho
+    </h2>   
+
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a target="_blank" href="index.html">Home</a>
+    <a target="_blank" href="peru.html">Peru</a>
+    <a target="_blank" href="chileArgentina.html">Chile/Argentina</a>
+    <a target="_blank" href="croatia.html">Croatia et al</a>
+    <a target="_blank" href="about.html">About</a>
+    <a href="extras.html">Extra</a>
+  </div>
+</div>
+<br>
+<form method="post" action="https://formspree.io/bobbieflare@gmail.com" id="travel">
+    
+    <label for="name">Who are you?</label>
+    <input type="text" class="text-input" id="name" name="name" placeholder="tell me who you are" required autofocus>
+<br>
+<br>
+<label for="otherstory">Tell me a story:</label>
+        <textarea name="story" rows="7" cols="50"
+        class="text-input" id="otherstory" placeholder="Tell me a story about traveling- any story" required></textarea>
+    
+    <p id="otherbuttons">
+        <input type="submit" value="Send" class="btn-primary">
+        <input type="reset" value="Clear" class="btn-secondary">
+    </p>
+     
+</form>
+
+<h1 class="hidden">Hide me</h1>
+<h1 class="hidden">Hide me</h1>
+<h1 class="hidden">Hide me</h1>
+
+<!--
+<nav>
+    <ul>
+        <li><a target="_blank" href="index.html">Home</a></li>
+        <li><a target="_blank" href="peru.html">Peru</a></li>
+        <li><a target="_blank" href="chileArgentina.html">Chile/Argentina</a></li>
+        <li><a target="_blank" href="croatia.html">Croatia et al</a></li>
+        <li><a target="_blank" href="about.html">About</a></li>
+        <li><a target="_blank" href="extras.html">Extra</a></li>
+
+    </ul>
+</nav>
+-->
+
+<div class="otherfooter">    
+    Contact me by <a href="mailto:bobbieflare@gmail.com">email</a> bobbieflare at gmail dot com
+</div>
+
+
+</body>
+</html>
